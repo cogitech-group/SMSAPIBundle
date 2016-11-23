@@ -1,0 +1,26 @@
+{
+	"name" : "cogitech/smsapi-bundle",
+	"description" : "Symfony bundle for SMSAPI.pl",
+	"keywords" : [
+		"cogitech",
+		"smsapi",
+		"bundle",
+		"symfony"
+	],
+	"type" : "symfony-bundle",
+	"authors" : [{
+			"name" : "Krystian Karaś",
+			"email" : "k.karas@cogitech.pl"
+		}
+	],
+	"require" : {
+        "symfony/symfony" : "^2.8|3.0",
+        "smsapi/php-client": "^1.8"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Cogitech\\SMSAPIBundle\\" : ""
+		}
+	},
+	"license" : "MIT"
+}
